@@ -40,6 +40,7 @@ const IndividualCobro = ({id, monto, setDataCobros, dataCobros}) => {
                         {cobrosHistoria === undefined && <button onClick={handleClick} className="os-btn">Reintegrar</button>}
                     </div>
                 </div>
+                
             </div>
         </div>
     );
